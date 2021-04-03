@@ -1,9 +1,4 @@
-site_name: Aiols
-site_url: https://docs.python-ruia.org/
-site_description: An async web scraping micro-framework based on asyncio.
-site_author: fishtn
-
-repo_url: https://github.com/fishtn/aiols
+repo_url: https://github.com/fishtn/aiols_docs
 repo_name: 'fishtn/aiols'
 
 theme:
