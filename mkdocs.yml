@@ -11,28 +11,28 @@ theme:
 
 nav:
   - Introduction: index.md
-#  - Quick Start: ./quickstart.md
-#  - Tutorials:
-#      - 1. Overview: ./tutorials/overview.md
-#      - 2. Installation: ./tutorials/installation.md
-#      - 3. Define Data Items: ./tutorials/item.md
-#      - 4. Spider Control: ./tutorials/spider.md
-#      - 5. Request & Response: ./tutorials/request.md
-#      - 6. Customize Middleware: ./tutorials/middleware.md
-#      - 7. Write a Plugins: ./tutorials/plugins.md
-#  - API Guide:
-#      - Field: ./apis/field.md
-#      - Item: ./apis/item.md
-#      - Spider: ./apis/spider.md
-#      - Request: ./apis/request.md
-#      - Response: ./apis/response.md
-#      - Middleware: ./apis/middleware.md
-#  - Topics:
-#      - Write Spiders like Scrapy: ./topics/write_spiders_like_scrapy.md
-#      - Item Data Cleaning: ./topics/item_data_cleaning.md
-#  - Examples:
-#      - Full featured project: ./examples/project.md
-#      - Parent Class For Your Spider: ./examples/spider_parent_class.md
+  - Quick Start: ./quickstart.md
+  - Tutorials:
+      - 1. Overview: ./tutorials/overview.md
+      - 2. Installation: ./tutorials/installation.md
+      - 3. Define Data Items: ./tutorials/item.md
+      - 4. Spider Control: ./tutorials/spider.md
+      - 5. Request & Response: ./tutorials/request.md
+      - 6. Customize Middleware: ./tutorials/middleware.md
+      - 7. Write a Plugins: ./tutorials/plugins.md
+  - API Guide:
+      - Field: ./apis/field.md
+      - Item: ./apis/item.md
+      - Spider: ./apis/spider.md
+      - Request: ./apis/request.md
+      - Response: ./apis/response.md
+      - Middleware: ./apis/middleware.md
+  - Topics:
+      - Write Spiders like Scrapy: ./topics/write_spiders_like_scrapy.md
+      - Item Data Cleaning: ./topics/item_data_cleaning.md
+  - Examples:
+      - Full featured project: ./examples/project.md
+      - Parent Class For Your Spider: ./examples/spider_parent_class.md
 
 plugins:
   - search
