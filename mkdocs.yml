@@ -8,14 +8,10 @@ theme:
 
 nav:
   - 简介: index.md
-  - 入门指南:
-      - 1. 概览: ./startGuide/1.overview.md
-      - 2. 安装指南: ./startGuide/2.installation.md
-      - 3. 创建爬虫: ./startGuide/3.create.md
-      - 4. 运行爬虫: ./startGuide/4.run.md
-      - 5. 请求和响应: ./startGuide/5.request_response.md
-      - 6. 使用中间件: ./startGuide/6.middleware.md
-      - 7. 配置说明: ./startGuide/7.config.md
+  - 入门:
+      - 1. 概览: ./Started/1.overview.md
+      - 2. 安装指南: ./Started/2.installation.md
+      - 3. 开发一个爬虫: ./Started/3.start.md
   - 基础概念:
       - 1. Request: ./basicConcepts/1.request.md
       - 2. Response: ./basicConcepts/2.response.md
@@ -27,7 +23,7 @@ nav:
   - 其他:
       - 信息收集: ./other/stats.md
       - 去重: ./other/dupefilters.md
-
+      - 配置文件: ./other/config.md
 
 plugins:
   - search

@@ -1,17 +1,63 @@
-# Welcome to MkDocs
+# hoopa
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 简介
 
-## Commands
+**hoopa** 是一个轻量、快速的异步分布式爬虫框架
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- 支持基于内存、redis、rabbitmq的优先级队列
+- 支持aiohttp、httpx
+- 支持断点续传
 
-## Project layout
+> 项目还在开发测试中，请勿用于生产环境
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## 环境要求：
+
+- Python 3.7.0+
+- Works on Linux, Windows, macOS
+
+## 安装
+``` shell
+# For Linux & Mac
+pip install -U hoopa[uvloop]
+
+# For Windows
+pip install -U hoopa
+```
+
+## 开始
+
+创建爬虫
+
+```shell
+hoopa create -s first_spider
+```
+
+然后添加url：http://httpbin.org/get
+
+```python
+
+import hoopa
+
+
+class FirstSpider(hoopa.Spider):
+    name = "first"
+    start_urls = ["http://httpbin.org/get"]
+
+    async def parse(self, request, response):
+        print(response)
+
+
+if __name__ == "__main__":
+    FirstSpider().start()
+        
+```
+
+
+
+## 感谢
+
+-   [Tinepeas](https://github.com/kingname/Tinepeas)
+-   [ruia](https://github.com/howie6879/ruia)
+-   [feapder](https://github.com/Boris-code/feapder)
+-   [scrapy](https://github.com/scrapy/scrapy)
