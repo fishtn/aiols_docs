@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Stats
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+统计，默认是使用内存的，如果使用默认的redis队列，默认使用redis
 
-## Commands
+根据需求修改
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+```python
+stats_cls = const.RedisStatsCollector
+```
+配置为redis_setting
