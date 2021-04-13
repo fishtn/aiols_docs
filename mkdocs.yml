@@ -10,8 +10,8 @@ nav:
   - 简介: index.md
   - 入门:
       - 1. 概览: ./Started/1.overview.md
-      - 2. 安装指南: ./Started/2.installation.md
-      - 3. 开发一个爬虫: ./Started/3.start.md
+      - 2. 安装: ./Started/2.installation.md
+      - 3. 开始: ./Started/3.start.md
   - 基础概念:
       - 1. Request: ./basicConcepts/1.request.md
       - 2. Response: ./basicConcepts/2.response.md
